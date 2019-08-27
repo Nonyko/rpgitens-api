@@ -1,0 +1,6 @@
+.DS_STORE
+.env
+.ideia
+*.sqlite3
+*pyc
+__pycache__
