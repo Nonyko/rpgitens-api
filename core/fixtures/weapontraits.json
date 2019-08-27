@@ -1,0 +1,36 @@
+[
+{"model": "core.weapontrait","pk": 1,"fields": {"name": "Agile","description": "multiple attack penalty on the 2nd attack each turn with this weapon is –4 instead of –5, and –8 instead of –10 on the 3rd and subsequent attacks in the turn."} },
+{"model": "core.weapontrait","pk": 2,"fields": {"name": "Attached","description": "must be combined with another piece of gear to be used."} },
+{"model": "core.weapontrait","pk": 3,"fields": {"name": "Backstabber","description": "When you hit a flat-footed creature, this weapon deals 1 precision damage"} },
+{"model": "core.weapontrait","pk": 4,"fields": {"name": "Backswing","description": "You can use this weapon’s momentum from a miss to lead into your next attack"} },
+{"model": "core.weapontrait","pk": 5,"fields": {"name": "Charge","description": "If you moved on the action before your attack, add a circumstance bonus to damage"} },
+{"model": "core.weapontrait","pk": 6,"fields": {"name": "Deadly","description": "On a critical hit, the weapon adds a weapon damage die of the listed size. "} },
+{"model": "core.weapontrait","pk": 7,"fields": {"name": "Disarm","description": "You can use this weapon to Disarm with the Athletics skill even if you don’t have a free hand. "} },
+{"model": "core.weapontrait","pk": 8,"fields": {"name": "Dwarf","description": "People of the dwarf ancestry craft and use these weapons."} },
+{"model": "core.weapontrait","pk": 9,"fields": {"name": "Elf","description": "People of the elf ancestry craft and use these weapons."} },
+{"model": "core.weapontrait","pk": 10,"fields": {"name": "Fatal","description": "On a critical hit, all theweapon’s damage dice increase to that die size instead of the normal dice, plus the weapon adds another die of damage of the listed size"} },
+{"model": "core.weapontrait","pk": 11,"fields": {"name": "Finesse","description": " You can use your Dexterity modifier instead of your Strength modifier when making attack rolls with this melee weapon."} },
+{"model": "core.weapontrait","pk": 12,"fields": {"name": "Forceful","description": " When you attack with it more than once on your turn, the second attack adds a circumstance bonus to damage equal to the number of weapon damage dice, and each subsequent attack adds a circumstance bonus to damage equal to double the number of weapon damage dice"} },
+{"model": "core.weapontrait","pk": 13,"fields": {"name": "Free-Hand","description": "This weapon doesn’t take up your hand, usually because it is built into your armor. A free-hand weapon can’t be Disarmed. "} },
+{"model": "core.weapontrait","pk": 14,"fields": {"name": "Gnome","description": "People of the gnome ancestry craft and use these weapons."} },
+{"model": "core.weapontrait","pk": 15,"fields": {"name": "Goblin","description": "People of the goblin ancestry craft and use these weapons."} },
+{"model": "core.weapontrait","pk": 16,"fields": {"name": "Halfling","description": "People of the halfling ancestry craft and use these weapons."} },
+{"model": "core.weapontrait","pk": 17,"fields": {"name": "Monk","description": "Monks can use these weapons with their abilities that normally require unarmed attacks."} },
+{"model": "core.weapontrait","pk": 18,"fields": {"name": "Nonlethal","description": "All attacks with this weapon are nonlethal."} },
+{"model": "core.weapontrait","pk": 19,"fields": {"name": "Orc","description": "People of the orc ancestry craft and use these weapons."} },
+{"model": "core.weapontrait","pk": 20,"fields": {"name": "Parry","description": "This weapon can be used defensively to block attacks."} },
+{"model": "core.weapontrait","pk": 21,"fields": {"name": "Propulsive","description": " You add half your Strength modifier to damage rolls with a propulsive ranged weapon so long as your Strength modifier is not negative. If you have a negative Strength modifier, you add your full Strength modifier instead"} },
+{"model": "core.weapontrait","pk": 22,"fields": {"name": "Reach","description": "h This weapon is long and can be used to attack creatures up to 10 feet away instead of only adjacent creatures. "} },
+{"model": "core.weapontrait","pk": 23,"fields": {"name": "Shove","description": "You can use this weapon to Shove with the Athletics skill even if you don’t have a free hand."} },
+{"model": "core.weapontrait","pk": 24,"fields": {"name": "Sweep","description": "This weapon makes wide sweeping or spinning attacks, making it easier to attack multiple enemies. "} },
+{"model": "core.weapontrait","pk": 25,"fields": {"name": "Thrown","description": " You can throw this weapon as a ranged attack."} },
+{"model": "core.weapontrait","pk": 26,"fields": {"name": "Trip","description": " You can use this weapon to Trip with the Athletics skill even if you don’t have a free hand."} },
+{"model": "core.weapontrait","pk": 27,"fields": {"name": "Twin","description": "These weapons are used as a pair, each complementing the other. "} },
+{"model": "core.weapontrait","pk": 28,"fields": {"name": "Two-Hand","description": "This weapon can be wielded with two hands."} },
+{"model": "core.weapontrait","pk": 29,"fields": {"name": "Unarmed","description": "An unarmed attack uses your body rather than a manufactured weapon. "} },
+{"model": "core.weapontrait","pk": 30,"fields": {"name": "Versatile","description": "Can be used to deal a different type of damage than the type listed in the damage entry."} },
+{"model": "core.weapontrait","pk": 31,"fields": {"name": "Volley","description": "This ranged weapon is less effective at close distances. "} }
+]
+
+
+

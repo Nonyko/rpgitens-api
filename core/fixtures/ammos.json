@@ -1,0 +1,10 @@
+[
+{"model": "core.price", "pk": 96, "fields": {"platinumPiece": 0, "goldPiece": 0, "silverPiece": 0, "copperPiece": 5}},
+{"model": "core.ammunition", "pk": 1, "fields": {"name": "blowgun darts", "price": 96, "bulk": "L", "ammoForWeapons": [49]}},
+{"model": "core.price", "pk": 97, "fields": {"platinumPiece": 0, "goldPiece": 0, "silverPiece": 1, "copperPiece": 0}},
+{"model": "core.ammunition", "pk": 2, "fields": {"name": "bolts", "price": 97, "bulk": "L", "ammoForWeapons": [50, 52, 53]}},
+{"model": "core.price", "pk": 98, "fields": {"platinumPiece": 0, "goldPiece": 0, "silverPiece": 0, "copperPiece": 1}},
+{"model": "core.ammunition", "pk": 3, "fields": {"name": "sling bullets", "price": 98, "bulk": "L", "ammoForWeapons": [55, 79]}},
+{"model": "core.price", "pk": 99, "fields": {"platinumPiece": 0, "goldPiece": 0, "silverPiece": 1, "copperPiece": 0}},
+{"model": "core.ammunition", "pk": 4, "fields": {"name": "arrows", "price": 99, "bulk": "L", "ammoForWeapons": [56, 57, 58, 59]}}
+]
