@@ -351,6 +351,18 @@ def getAmmoDict(name, bulk, price, ammoForWeapons):
 
     return weapondict
 
+def getGearDict(name, bulk, type, hands, price, unitiesInPackage = 1):
+    geardict = {
+        'name': name,
+        'bulk': bulk,
+        'type': type,
+        'hands': hands,
+        'price': price,
+        'unitiesInPackage': unitiesInPackage,
+    }
+
+    return geardict
+
 
 
 
@@ -834,8 +846,267 @@ def generatefixtureammunitions():
     fixtureammos = '[\n' + stringammos[:len(stringammos) - 2] + '\n]'
     return fixtureammos
 
+def generatefixturegears():
+
+    gearlist = []
+    gearlist.append(
+        getGearDict(name='Alchemist’s tools', bulk='2', type='PT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 60, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Expert alchemist’s tools (level 2)', bulk='2', type='PT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 250, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Master alchemist’s tools (level 7)', bulk='2', type='PT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 3750, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Artisan’s tools', bulk='8', type='PT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 50, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Expert artisan’s tools (level 2)', bulk='8', type='PT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 200, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Master artisan’s tools (level 7)', bulk='8', type='PT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 3000, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Backpack', bulk='', type='S', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 1, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Basic crafter’s book', bulk='L', type='RW', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 1, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Bedroll', bulk='L', type='CE', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 0, 'copperPiece': 1})
+    )
+    gearlist.append(
+        getGearDict(name='Belt pouch', bulk='', type='S', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 0, 'copperPiece': 4})
+    )
+    gearlist.append(
+        getGearDict(name='Caltrops', bulk='L', type='AE', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 3, 'copperPiece': 0})
+    )
+    gearlist.append(
+        getGearDict(name='Candle', bulk='', type='I', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 0, 'copperPiece': 1},
+                    unitiesInPackage=10
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Chain', bulk='1', type='AE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 40, 'copperPiece': 0},
+                    unitiesInPackage=10
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Chalk', bulk='', type='RW', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 0, 'copperPiece': 1},
+                    unitiesInPackage=10
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Chest', bulk='2', type='S', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 6, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Climbing kit', bulk='1', type='CT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 5, 'copperPiece': 1},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Expert climbing kit (level 2)', bulk='1', type='CT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 150, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Ordinary Clothing', bulk='', type='A', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 0, 'copperPiece': 1},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Fine Clothing', bulk='', type='A', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 20, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Winter Clothing', bulk='', type='A', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 4, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Cookware', bulk='2', type='CE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 10, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Crowbar, expert (level 2)', bulk='GT', type='CE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 5, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Disguise kit', bulk='L', type='A', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 20, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Replacement cosmetics', bulk='', type='A', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 1, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Expert kit (level 2)', bulk='L', type='A', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 150, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Expert cosmetics (level 2)', bulk='', type='A', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 5, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Master kit (level 7)', bulk='L', type='A', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 2500, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Master cosmetics (level 7)', bulk='', type='A', hands='0',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 50, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Fishing tackle', bulk='1', type='CE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 8, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Expert fishing tackle (level 2)', bulk='1', type='CE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 150, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Flint and steel', bulk='', type='CE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 0, 'copperPiece': 5},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Formula book (blank)', bulk='1', type='RW', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 10, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Grappling hook', bulk='L', type='CT', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 1, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Hammer', bulk='L', type='GT', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 1, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Healer’s tools', bulk='1', type='PT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 50, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Expert healer’s tools (level 2)', bulk='1', type='PT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 200, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Holly and mistletoe', bulk='', type='M', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 0, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Ladder', bulk='3', type='M', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 0, 'copperPiece': 3},
+                    unitiesInPackage=10
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Bull’s-eye Lantern', bulk='1', type='I', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 10, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Hooded Lantern', bulk='L', type='I', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 7, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Lock', bulk='', type='GT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 20, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Expert lock (level 2)', bulk='', type='GT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 100, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Master lock (level 7)', bulk='', type='GT', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 1500, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Magnifying glass, expert', bulk='', type='GT', hands='1',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 200, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Manacles', bulk='', type='AE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 30, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Expert manacles (level 2)', bulk='', type='AE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 150, 'copperPiece': 0},
+                    )
+    )
+    gearlist.append(
+        getGearDict(name='Master manacles (level 7)', bulk='', type='AE', hands='2',
+                    price={'platinumPiece': 0, 'goldPiece': 0, 'silverPiece': 2250, 'copperPiece': 0},
+                    )
+    )
+    stringgears = ''
+    i = 1
+    j = 100
+
+    for geardict in gearlist:
+        stringprice = '{"model": "core.price", "pk": ' + str(j) + ', "fields": {"platinumPiece": ' + str(
+            geardict['price']['platinumPiece']) + ', "goldPiece": ' + str(
+            geardict['price']['goldPiece']) + ', "silverPiece": ' + str(
+            geardict['price']['silverPiece']) + ', "copperPiece": ' + str(
+            geardict['price']['copperPiece']) + '}},\n'
+
+        stringgear = '{"model": "core.gear", "pk": ' + str(i) + ', "fields": {"name": "' + geardict[
+            'name'] + '", "price": ' + str(j) + ', "bulk": "' + geardict['bulk'] + '", "type": "' + str(
+            geardict[
+                'type']) + '" , "hands": "' + str(
+            geardict[
+                'hands']) + '", "unitiesInPackage": ' + str(
+            geardict[
+                'unitiesInPackage']) + '}},\n'
+
+        i += 1
+        j += 1
+        stringgears += stringprice + stringgear
+
+    fixturegears = '[\n' + stringgears[:len(stringgears) - 2] + '\n]'
+    return fixturegears
+
+
 def main():
-    print(generatefixtureammunitions())
+    print(generatefixturegears())
 
 if __name__ == "__main__":
     main()

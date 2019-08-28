@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e6e6862-7e57-48aa-8787-77bda70b8997" name="Default" comment="" />
+    <list default="true" id="0e6e6862-7e57-48aa-8787-77bda70b8997" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/core/fixtures/generatefixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/fixtures/generatefixture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,63 +14,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="generatefixture.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/fixtures/generatefixture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="1078" column="5" lean-forward="true" selection-start-line="1078" selection-start-column="5" selection-end-line="1078" selection-end-column="5" />
+              <folding>
+                <element signature="e#38#5821#0" />
+                <element signature="e#5856#12241#0" />
+                <element signature="e#12354#12667#0" />
+                <element signature="e#12725#12878#0" />
+                <element signature="e#12933#13097#0" />
+                <element signature="e#12918#37298#0" />
+                <element signature="e#37340#39163#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="190" column="18" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="18" />
+            <state relative-caret-position="129">
+              <caret line="199" column="12" selection-start-line="199" selection-start-column="10" selection-end-line="199" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/admin.py">
+      <file leaf-file-name="weapons.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/fixtures/weapons.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="319">
+              <caret line="159" column="32" lean-forward="true" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generatefixture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/fixtures/generatefixture.py">
+      <file leaf-file-name="ammos.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/fixtures/ammos.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="828" column="54" selection-start-line="828" selection-start-column="54" selection-end-line="828" selection-end-column="54" />
-              <folding>
-                <element signature="e#38#5821#0" />
-                <element signature="e#12354#12667#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="2" selection-end-column="51" />
+            <state relative-caret-position="154">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -101,13 +88,13 @@
         <option value="$PROJECT_DIR$/banco.txt" />
         <option value="$PROJECT_DIR$/core/fixtures/weapontraits.json" />
         <option value="$PROJECT_DIR$/core/fixtures/armors.json" />
-        <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/core/fixtures/weapons.json" />
-        <option value="$PROJECT_DIR$/core/fixtures/generatefixture.py" />
         <option value="$PROJECT_DIR$/core/fixtures/ammos.json" />
         <option value="$PROJECT_DIR$/core/admin.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/core/models.py" />
+        <option value="$PROJECT_DIR$/core/fixtures/generatefixture.py" />
       </list>
     </option>
   </component>
@@ -216,10 +203,10 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2992126" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29790026" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -298,7 +285,12 @@
           <caret line="523" column="51" selection-start-line="523" selection-start-column="51" selection-end-line="523" selection-end-column="51" />
           <folding>
             <element signature="e#38#5821#0" />
+            <element signature="e#5856#12241#0" />
             <element signature="e#12354#12667#0" />
+            <element signature="e#12725#12878#0" />
+            <element signature="e#12933#13097#0" />
+            <element signature="e#12918#37298#0" />
+            <element signature="e#37340#39163#0" />
           </folding>
         </state>
       </provider>
@@ -342,45 +334,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/fixtures/weapons.json">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="159" column="32" lean-forward="true" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
+        <state>
+          <caret lean-forward="true" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/fixtures/ammos.json">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="190" column="18" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/fixtures/generatefixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="828" column="54" selection-start-line="828" selection-start-column="54" selection-end-line="828" selection-end-column="54" />
-          <folding>
-            <element signature="e#38#5821#0" />
-            <element signature="e#12354#12667#0" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -391,17 +355,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/core/fixtures/weapons.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="2" selection-end-column="51" />
+        <state relative-caret-position="319">
+          <caret line="159" column="32" lean-forward="true" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/core/fixtures/ammos.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="199" column="12" selection-start-line="199" selection-start-column="10" selection-end-line="199" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/fixtures/generatefixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="1078" column="5" lean-forward="true" selection-start-line="1078" selection-start-column="5" selection-end-line="1078" selection-end-column="5" />
+          <folding>
+            <element signature="e#38#5821#0" />
+            <element signature="e#5856#12241#0" />
+            <element signature="e#12354#12667#0" />
+            <element signature="e#12725#12878#0" />
+            <element signature="e#12933#13097#0" />
+            <element signature="e#12918#37298#0" />
+            <element signature="e#37340#39163#0" />
+          </folding>
         </state>
       </provider>
     </entry>

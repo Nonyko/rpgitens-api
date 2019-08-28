@@ -208,6 +208,7 @@ class Gear(Item):
     )
     type = models.CharField(max_length=100, choices=GEAR_TYPES)
     hands = models.CharField(max_length=100)
+    unitiesInPackage = models.IntegerField(default=1)
 
     def __str__(self):
         return self.name
