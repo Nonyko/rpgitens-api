@@ -7,4 +7,7 @@ You'll also need to create  ".env" file with the secret informations. The file c
  * ALLOWED_HOSTS=127.0.0.1, .localhost, .herokuapp.com
  
 If you decide to execute the fixtures, do it in this order:
-amors.json, weapontraits.json, weapons.json and ammos.json.
+1. amors.json
+2. weapontraits.json
+3. weapons.json 
+4. ammos.json.
